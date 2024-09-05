@@ -20,9 +20,10 @@ export default function Transactions({ transactions, setIsModelOpen, setType, se
                             className={styles.transaction}
                             onClick={() => handleClick(transaction.id)} // Set the correct ID
                         >
-                            // Display the transaction type icon
+
                             <div>
-                                {
+                                {  
+                                    // Display the transaction type icon
                                     (transaction.transactionType === 'amount') ? <i className="fa-solid fa-caret-up fa-xl" style={{ color: 'green' }}></i>
                                         : <i class="fa-solid fa-caret-down fa-xl" style={{ color: "red" }}></i>
 
