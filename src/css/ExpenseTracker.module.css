@@ -1,0 +1,12 @@
+.expense_tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  background-color: white;
+  padding: 20px;
+  margin: 10vh auto;
+  max-width: max-content;
+  border: 2px solid gray;
+}

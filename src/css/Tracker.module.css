@@ -1,0 +1,19 @@
+.heading {
+  text-align: center;
+}
+.balancedetails {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #758275;
+
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}

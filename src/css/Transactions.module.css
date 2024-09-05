@@ -1,0 +1,13 @@
+.transaction {
+  border: 1px solid black;
+
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+
+  gap: 10px;
+  border: 1px solid black !important;
+}
